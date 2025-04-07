@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Party Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Party Planner</h1>
+
+  <form id="party-form">
+    <input type="text" name="name" placeholder="Party Name" required />
+    <input type="datetime-local" name="date" required />
+    <input type="text" name="location" placeholder="Location" required />
+    <textarea name="description" placeholder="Description"></textarea>
+    <button type="submit">Add Party</button>
+  </form>
+
+  <section id="party-list"></section>
+
+  <script src="app.js"></script>
+</body>
+</html>
